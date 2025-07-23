@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  @keyframes fade-in {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 1s ease-out both;
+  }
+  
+  
+  .animate-fade-in {
+    animation: fade-in 1s ease-out both;
+  }
+  .button-primary {
+    @apply px-6 py-3 bg-black text-white font-medium hover:bg-white hover:text-black border border-black transition-all duration-300 ease-in-out;
+  }
+  
